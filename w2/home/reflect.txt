@@ -1,0 +1,7 @@
+1) The most important thing that I learned in this workshop is how perform computations and using casting to get the correct results from the computation as well as munipulate casting in order to create a functional rounding system. 
+
+2) You must add 0.005 to the total cost(after taxes) because we can munipulate the variable to round up or down when the variable is formated to two decimal places by the printf. When you add 0.005 if the thousandths place is greater or equal to five it will increase the hundredth digit by one making it seem like we rounding up when formatted. 
+
+3) The variable will convert to that data type temporarly for that specific computation. This is very useful when you want to permenatly remove a certain place value and onward as well as needing to comput the remainder since modulus only accepts integers.
+
+4) We used modulus in the workshop because using this operater we are able to comput the remainder after calculating how many coins can be used to make a certain amount of money. modulus makes calculating the remainder extremly easy which can save a lot of time rather then having to come up with an expression that can do the dame thing and use up a lot more time.  
