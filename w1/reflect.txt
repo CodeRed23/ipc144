@@ -1,0 +1,5 @@
+/* Nicholas DeFranco ndefranco@myseneca.ca 106732183 */
+
+Today I have learned how to create a project as well as a c file in visual studio. I learned how to compile to c 
+code in the linux terminal. I learned how to save projects to my matrix account using WinSCP by moving my c file 
+off the hard drive to matrix.  
