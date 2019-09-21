@@ -1,0 +1,20 @@
+
+3) Many menu options that were created required to search for a contact before
+being able to make changes to it. This would mean we would have repeated 
+a lot of code if we did not create a search function which we can call on.
+If we every need to make a change to the searching algorithm, we would
+only need to do it in one place. The getTenDigitPhone function has a lot
+of logic to make sure the number is valid, and it is used in multiple places.
+By putting this logic in a function, it makes the main code much easier to read
+and it is much easier to maintain. 
+
+4) What I learned is that, the development process for this project is much
+faster using functions as we did then it would have been if we put everything
+in one place. Everything was broken up into smaller problems making it
+easy to know what to code in what spot (the function names gives that 
+away). When a bug is spotted while testing,it is easy to know where the
+bug could possibly be located. Futhermore, any time we needed the 
+code, we refer to it by its name. At this point the code becomes a
+black box. If this was a team project, all the others have to do is 
+read comments provided to know what it does. 
+

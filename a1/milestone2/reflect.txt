@@ -1,0 +1,15 @@
+
+1) I believe the assignment asked me to create a struct contact that holds three other structs was to 
+organize the code in a much better format. By having three separate structs in the last at home milestone, it would
+force the programmer to have to create parallel arrays if they choose to create more contacts since 
+information is spread out on multiple structs that contain info about one entity (contain related data).  
+By having one struct containing everything about that contact, you will only need one array of structs (type 
+contact) if you want multiple contacts. This makes it easier to work with the data as you only need to
+use the member access operator (the dot). It will also save memory as there is only one array rather then multiple of them.
+In short, it cleans up code as well as future proofs it when we decide to expand the amount of contacts.
+
+2) The most difficult part of the assignment was trying to preserve whitspace in a string, before this assignment
+I never realized I never inputted a string with a space so I never come across this problem before. It is also
+when I learned that scanf can read a character class (regular expression).  
+
+3) Milestone 4 took me approximately 2.5 hours.

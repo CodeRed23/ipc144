@@ -1,0 +1,7 @@
+
+
+1) The array in this program needing to be declared to hold ten elements because the maximum amount of days that the user can choose in the range is ten days. By allocating ten spaces in memory we are preparing for the worst possible scenario, if the the user choose an amount of days less then ten we only we only the part of the array that we need. 
+
+2) The advantages of usesing parallel arrays are, for smaller applications, a simple way to describe more information about any kind of data, all you have to know is that elements that share the same index are related in some way and the identifier for the array should give that away. The disadvantages is that for larger applications, the more arrays you create to be parallel, the more prone your application is for mistakes to occur (searching for an index that is out of bounds of the array) as well as being inefficient (using too much unnessary storage).  
+
+3) The home portion of the workshop was too easy because the array make storing data and well as munipulating it extremely easy. To access an array you set a for loop that starts counting at zero and have it count up to where you need it or to the end (array's length - 1). This process was repeated throughout the entire workshop. 

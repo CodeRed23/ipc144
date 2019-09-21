@@ -1,0 +1,10 @@
+
+In line number 29 of your output:
+The output should be:
+Enter a number between 1 and 4 to see the average temperature for the entered number of days, enter a negative number to exit: 2
+But your output is: 
+Enter a number between 1 and 4 to see average temperature for the entered number of days, enter a negative number to exit: 2
+                                      ^
+--------------------------------------|
+Professor's character ASCII code: hex(74), dec(116)
+un-matched character ASCII code: hex(61), dec(97)

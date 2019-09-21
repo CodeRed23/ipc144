@@ -1,0 +1,15 @@
+
+1) The advantages of using an array a structs is that it cleans up code a lot
+because instead of using mulitiple arrays which all have to called on one to
+collect data you only need to call on one where thee element in each array
+encapsulates more than one data type. Another advantage is that you can save
+yourself from a lot of wasted space if you were to declare mulitple
+arrays and not use some of the allocated space you declared for each. Code 
+also far easier to understand when it is cleaned up by structures
+
+2) If you were working on a bigger project that requires mulitple c source files
+or separate projects that coincidentally require the same name and info on
+a structure, putting the structure declaration in a header file allows the 
+programmer to only need to declare the structure once and make any neccassary
+changes to the stucture once and you still able to use it anywhere
+as many times as they please. This cleans up code as well as saves a lot of time.

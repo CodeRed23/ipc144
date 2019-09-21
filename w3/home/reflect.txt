@@ -1,0 +1,11 @@
+Nicholas DeFranco
+106732183
+
+1) In my program I used: 
+   for loop
+   do while 
+   ... as iteration contructs.
+
+2) the difference between a while and a do while is that a do while runs at the minimum one time since it checks the condition after it executes the code once. Once the computer executes the sequence or statement it will work like a while loop which means that it will only run the same sequence or statement if the condition is true or else it will ignore it. The while will only run if the condition is true and will continue running if condition is true, this means a while loops sequence or statment can be skipped if the condition is false in the first place.
+
+3) A conditional expression is normally within brackets right after a keyword that creates a logic construct which can also be known as a boolean expression, which can result in either a true or a false which determines whether or not a block of code (sequence) or statment should execute. Conditional expressions allow a programmer to change the flow of a program based on different input, amount of input etc.

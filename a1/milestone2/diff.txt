@@ -1,0 +1,10 @@
+
+In line number 43 of your output:
+The output should be:
+Structure test for Contact using functions done!
+But your output is: 
+Structure test for Contact using functions Done!
+                                           ^
+-------------------------------------------|
+Professor's character ASCII code: hex(64), dec(100)
+un-matched character ASCII code: hex(44), dec(68)

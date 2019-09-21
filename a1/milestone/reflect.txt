@@ -1,0 +1,21 @@
+1) 
+- One small thing could be done for convienience (in my opinion) could removing
+the prompt asking the user whether of not they have that information. The reason 
+is because if the info is not aplicable, they could just press the enter key
+without typing anything and that will create a empty string. However, it only 
+works with strings and not the integers, so it will not be a perfect change.
+
+- There is a way to allow scanf to take multiple values at once making it 
+possible in some cases to input their full name all on one prompt. However, this
+is not perfect because it will be very difficult to program if a part of the
+ name has spaces in it (example: last name is more than one word for example like 
+the sample output: Wong Song). It could be programmed so that there is 
+a dilimeter to denote(plain character) the end of a string and the start of 
+the next but that will be hard to force on the user. It is also easy for the user 
+to make a mistake by not separating their strings correctly when they are 
+prompted to input.  
+
+2) A C string always needs to be capable of storing 1 more than the meaningful
+amount of characters to allow the null terminator ('\0') to be stored at the end
+of the string. The null terminator is important as that's the computer's
+way of knowing the end of a string in memory. 

@@ -1,0 +1,23 @@
+
+1) A funtion is a block of code that performs one very specific task.
+They are used to organize code as you are able to give the block of a code a name 
+which you can refer to it to as well as allow the programmer to break the
+problem up into smaller sub problems. Funtions allow code to be more modular, 
+as in if they were generically made (the name of the funtion is generic, var names
+etc.), that would allow the code to be able to be reused in many different
+contexts. This is beneficial as programmers could save time because they do not 
+need to recreate the same algorithm if a past funtion they made in another 
+project, could be used in the context of the problem. All the programmer has to 
+do is copy their code from their old project to their new one. 
+
+for ex: the getInt() function can be used in many different contexts.
+
+
+2) The "helper" funtions are not cohesive with the contact struct. However, 
+the functions that change the values stored the struct contact's fields are highly
+cohesive with the struct contact, contacts.h header file (getName(), getAddress(),
+getNumbers(), getContact()). These funtions can only be used with the 
+struct Contact (they are only useful in this context), therefore that
+is why they were placed in the same header file. The other funtions can
+be used in many different contexts, not just for manipulating contacts.
+Therfore, that is why they were not placed in the contacts.h header file. 

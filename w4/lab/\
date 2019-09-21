@@ -1,0 +1,51 @@
+//----------------------------------------------------
+// Name: Nicholas DeFranco
+// Student #106732183
+// Email: ndefranco@myseneca.ca
+// Section: P
+// WorkShop: 4
+// ---------------------------------------------------
+
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+
+int main(void){
+
+	int days;
+	
+
+	printf("---=== IPC Temperature Calculator V2.0 ===---\n");
+	printf("Please enter the number of days, between 3 and 10, inclusive:");
+
+	do{
+		scanf("%d", &days);
+
+		if(days < 3 && days > 10){
+			printf("Invalid entry, please enter a number between 3 and 10, inclusive:");
+		}
+        }while(days < 3 && days > 10);
+	
+	int lows[days];
+	int highs[days];
+
+	int i;
+
+	for(i = 0; i < days; i++){
+		printf("Day %d - High:", (i + 1));
+		scanf("%d", &highs[i]);
+		printf("Day %d - low:", (i + 1));
+		scanf("%d", &lows[i]);
+	}
+
+	printf("Day  Hi  Low\n");
+
+	int j;
+
+	for(j = 0; i < days; i++){
+		printf("%d   %d  %d", (i + 1), highs[i], lows[i]);
+	}
+
+
+	return 0;
+
+}
